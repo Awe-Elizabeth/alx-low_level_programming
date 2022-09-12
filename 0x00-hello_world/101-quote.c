@@ -1,6 +1,6 @@
-#include <stdio.h>
+#include <unistd.h>
 /**
- * main: Entry
+ * main - Main entry that prints the worid
  * Return: returns zero
  */
 int main(void)
