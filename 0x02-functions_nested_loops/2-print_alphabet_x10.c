@@ -10,11 +10,11 @@ void print_alphabet_x10(void)
 	co = 0;
 	while (co < 10)
 	{
-		for (n = 'a'; n++)
+		for (n = 'a'; n++;)
 		{
 		_putchar(n);
 		}
-		co++
+		co++;
 		_putchar('\n');
 	}
 }
