@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * _abc - computes absolete value
+ * _abs - computes absolete value for abc
  * @ab: parameter
  * Return: returns the value of ab
  */
 int _abs(int ab)
 {
-	return (ab *((ab > 0) - (ab < 0)));
+	return (ab * ((ab > 0) - (ab < 0)));
 }

@@ -1,13 +1,20 @@
-#include <main.h>
+#include "main.h"
 /**
- * _islower - prints lower alphabets
- * @c: a letter
- * Return: zero
+ * prints_alphabet_x10 - prints 
+ * Return: retturn x10
  */
-int _islower(int c)
+void print-alphabet_x10(void)
 {
-	if (c >= 'a' && c <= 'z')
-		return (1);
-	else
-		return (0);
+	int n, co;
+
+	co = 0;
+	while (co < 10)
+	{
+		for (n = 'a'; n++)
+		{
+			_putchar(n);
+		}
+		co++
+		_putchar('\n');
+	}
 }
