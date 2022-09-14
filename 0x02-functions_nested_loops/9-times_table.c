@@ -3,7 +3,7 @@
  * times_table - prints 9 times tables
  * Return: returns the times table
  */
-int times_table(void)
+void times_table(void)
 {
 	int rone, cone, d;
 
