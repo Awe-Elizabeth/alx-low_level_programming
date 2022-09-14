@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * prints_alphabet_x10 - prints 
+ * print_alphabet_x10 - prints alphabets by 10
  * Return: retturn x10
  */
-void print-alphabet_x10(void)
+void print_alphabet_x10(void)
 {
 	int n, co;
 
@@ -12,7 +12,7 @@ void print-alphabet_x10(void)
 	{
 		for (n = 'a'; n++)
 		{
-			_putchar(n);
+		_putchar(n);
 		}
 		co++
 		_putchar('\n');
