@@ -5,7 +5,7 @@
  * @n: parameter
  *Return: Return
  */
-int print_to_98(int n)
+void print_to_98(int n)
 {
 	if (n < 98)
 	{
@@ -16,7 +16,7 @@ int print_to_98(int n)
 			{
 				printf(", ");
 			}
-			n++
+			n++;
 		}
 	}
 	else if (n > 98)
@@ -28,12 +28,12 @@ int print_to_98(int n)
 			{
 				printf(", ");
 			}
-			n++
+			n++;
 		}
 	}
 	else
 	{
 		printf("98");
 	}
-	print("\n");
+	printf("\n");
 }
