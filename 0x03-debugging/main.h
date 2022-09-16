@@ -1,11 +1,3 @@
-<<<<<<< HEAD
-#ifndef HOLBERTON_H
-#define HOLBERTON_H
-
-#include <stdio.h>
-
-void positive_or_negative(int i);
-=======
 #ifndef MAIN_H
 #define MAIN_H
 
@@ -22,4 +14,3 @@ void print_times_table(int n);
 #endif
 =======
 #endif /* MAIN_H */
->>>>>>> 1b81c9f097ae9a7a6f9f9ff60f5affcaf4ca9fde
