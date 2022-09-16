@@ -1,31 +1,23 @@
+#include <stdio.h>
 #include "main.h"
+
 /**
- * print_number - prints number
- * @n: parameter
- */
+* print_number - Prints a number
+* @n: The number to print
+*/
+
 void print_number(int n)
 {
-	int len, res, i, temp, expo;
+	unsigned int num = n;
 
-	res = n;
-	expo = len = 1;
-	if (res < 0)
+	if (n < 0)
 	{
-		res *= -1;
-		_putchar('-');
+		putchar('-');
+		num = -num;
 	}
-	temp = res
-	while (temp >= 10)
+	if (num > 9)
 	{
-		len++;
-		temp /= 10;
+		print_number(num / 10);
 	}
-	for (i = 1; i < len; i++)
-		expo *= 10;
-	while (expo > 1)
-	{
-		_putchar((res / expo) % 10 + '0');
-		expo /= 10;
-	}
-	_putchar(res % 10 + '0');
+	putchar(num % 10 + '0');
 }
