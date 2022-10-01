@@ -1,1 +1,2 @@
-Printing arguments
+
+Introductionto C - argc, arg
