@@ -4,7 +4,7 @@
  * get_op_func - selects the correct function
  * @s: the operator
  * @int: the argument
- * return: Returns the result
+ * Return: Returns the result
  */
 int (*get_op_func(char *s))(int, int)
 {
@@ -17,7 +17,7 @@ int (*get_op_func(char *s))(int, int)
 		{NULL, NULL},
 	};
 	int i;
-	
+
 	while (i < 5)
 	{
 		if (s[0] == ops->op[i])
