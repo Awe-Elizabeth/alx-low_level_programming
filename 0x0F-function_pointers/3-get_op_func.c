@@ -3,7 +3,6 @@
 /**
  * get_op_func - selects the correct function
  * @s: the operator
- * @int: the argument
  * Return: Returns the result
  */
 int (*get_op_func(char *s))(int, int)
