@@ -8,7 +8,7 @@
  */
 int _putchar(char c)
 {
-	
+
 }
 
 /**
@@ -18,7 +18,7 @@ int _putchar(char c)
  */
 int _islower(char c)
 {
-	
+
 }
 
 /**
@@ -28,7 +28,7 @@ int _islower(char c)
  */
 int _isalpha(char c)
 {
-	
+
 }
 
 /**
