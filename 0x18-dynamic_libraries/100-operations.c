@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 /**
  * add - a function tgat adds
@@ -35,12 +34,12 @@ int mul(int num1, int num2)
 }
 
 /**
- * divide - a function that divides
+ * div - a function that divides
  * @num1: parameter
  * @num2: parameter
  * Return: returns integer
  */
-int divide(int num1, int num2)
+int div(int num1, int num2)
 {
 	return (num1 / num2);
 }
